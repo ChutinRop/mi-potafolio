@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-blue-600 text-white p-4">
+    <nav class="flex justify-between max-w-5xl mx-auto">
+      <h1 class="text-xl font-bold">Mi Portafolio</h1>
+      <ul class="flex space-x-4">
+        <li><a href="index.html" class="hover:underline">Inicio</a></li>
+        <li><a href="sobre-mi.html" class="hover:underline">Sobre Mí</a></li>
+        <li><a href="portafolio.html" class="hover:underline">Portafolio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="max-w-6xl mx-auto py-10 px-4">
+    <h2 class="text-3xl font-bold mb-6">Mis Proyectos</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white shadow-md rounded p-4">
+        <img src="img/starwars.jpeg" alt="Proyecto 1" class="rounded mb-4" />
+        <h3 class="text-xl font-semibold">Proyecto 1</h3>
+        <p>Un juego que estaba programando pero por falta de tiempo lo deje, era un juego por turnos programado con Python.</p>
+      </div>
+      <div class="bg-white shadow-md rounded p-4">
+        <img src="img/IA bitcoin.jpeg" alt="Proyecto 2" class="rounded mb-4" />
+        <h3 class="text-xl font-semibold">Proyecto 2</h3>
+        <p>Aplicación con Python y que analizaba el valor de la monada para hacer un estimado de si subiria la moneda o iba a bajar.</p>
+      </div>
+      <div class="bg-white shadow-md rounded p-4">
+        <img src="img/Paginaweb.jpeg" alt="Proyecto 3" class="rounded mb-4" />
+        <h3 class="text-xl font-semibold">Proyecto 3</h3>
+        <p>Pagina web hecha con wordpress y subida en google Cloud, de ventas de componentes de computadoras.</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
